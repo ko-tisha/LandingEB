@@ -1,4 +1,92 @@
 @font-face{
+    font-family: "EBGaramond-Regular";
+    src: url("../EB_Garamond/EBGaramond-Regular.otf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "EBGaramond-Medium";
+    src: url("../EB_Garamond/EBGaramond-Medium.otf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "EBGaramond-SemiBold";
+    src: url("../EB_Garamond/EBGaramond-SemiBold.otf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "EBGaramond-Bold";
+    src: url("../EB_Garamond/EBGaramond-Bold.otf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "EBGaramond-ExtraBold";
+    src: url("../EB_Garamond/EBGaramond-ExtraBold.otf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "EBGaramond-Italic";
+    src: url("../EB_Garamond/EBGaramond-Italic.otf") format(truetype);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: "EBGaramond-MediumItalic";
+    src: url("../EB_Garamond/EBGaramond-MediumItalic.otf") format(truetype);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: "EBGaramond-SemiBoldItalic";
+    src: url("../EB_Garamond/EBGaramond-SemiBoldItalic.otf") format(truetype);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: "EBGaramond-BoldItalic";
+    src: url("../EB_Garamond/EBGaramond-BoldItalic.otf") format(truetype);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: "EBGaramond-ExtraBoldItalic";
+    src: url("../EB_Garamond/EBGaramond-ExtraBoldItalic.otf") format(truetype);
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+
+
+.h1, .h3 {
+    font-family: "EBGaramond-ExtraBold";
+}
+
+.h2 {
+    font-family: "EBGaramond-Regular";
+}
+
+.p, .h4i {
+    font-family: "EBGaramond-SemiBoldItalic";
+}
+
+
+
+
+/* @font-face{
     font-family: "EBGaramond-Italic";
     src: url("../EB_Garamond/EBGaramond-Italic.ttf") format(truetype);
     font-weight: normal;
@@ -18,4 +106,4 @@
 
 p {
     font-family: "EBGaramond-Italic";
-}
+} */
