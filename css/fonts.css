@@ -69,17 +69,58 @@
 }
 
 
-
-
-.h1, .h3 {
-    font-family: "EBGaramond-ExtraBold";
+@font-face{
+    font-family: "Cormorant-Bold";
+    src: url("../Cormorant/Cormorant-Bold.ttf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
 }
 
-.h2 {
+@font-face{
+    font-family: "Garamond-Bold";
+    src: url("../Garamond/Garamond-Bold\ -\ Garamond\ -\ Bold.ttf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.h2, .reg1 {
     font-family: "EBGaramond-Regular";
 }
 
-.p, .h4i {
+.h2, .reg2 {
+    font-family: "EBGaramond-Medium";
+}
+
+.h13, .reg3{
+    font-family: "EBGaramond-SemiBold";
+}
+
+.h13, .reg4{
+    font-family: "EBGaramond-Bold";
+}
+
+.h1, .h3, .h5b, .h5i, .h1bc, .h1ic, .h4, .reg5, .h2r1, .h2r2{
+    font-family: "EBGaramond-ExtraBold";
+}
+
+.ita1 {
+    font-family: "EBGaramond-RegularItalic";
+}
+
+.ita2 {
+    font-family: "EBGaramond-MediumItalic";
+}
+
+.ita3, .pr1, .pr2, .p {
+    font-family: "EBGaramond-SemiBoldItalic";
+}
+
+.ita4 {
+    font-family: "EBGaramond-BoldItalic";
+}
+
+.ita5 {
     font-family: "EBGaramond-SemiBoldItalic";
 }
 

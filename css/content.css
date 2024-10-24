@@ -41,7 +41,7 @@
 }
 
 .h3{
-    font-size: 300%;
+    font-size: 55px;
     width: 100%; 
     height: 150px; 
     display: flex; 
@@ -50,7 +50,7 @@
 }
 
 .h3i{
-    font-size: 80px;
+    font-size: 55px;
     font-style: italic;
     color: #0A178C;
     width: 100%; 
@@ -62,29 +62,33 @@
 
 .h4c{
     font-size: 27px;
-    width: 100%; 
+    /* width: 100%;  */
     height: 50px; 
     display: flex; 
-    justify-content: flex-end; 
+    gap: 10px;  
     align-items: flex-start; 
 }
 
 .h4{
-    font-size: 27px;
+    /* font-size: 27px;
     width: 100%; 
-    height: 50px; 
-    display: flex; 
-    justify-content: flex-end; 
-    align-items: flex-start; 
+    height: 50px;  */
+    /* margin-left: 50px; */
+    white-space: wrap;
+    width: 90%
+    /* display: flex; 
+    gap: 50px; 
+    align-items: flex-start;  */
 }
 
 .h4i{
+    /* margin-left: 10px; */
     font-size: 27px;
     font-style: italic;
     color: #0A178C;
-    text-decoration: underline;
+    text-decoration: underline #000000;
     width: 100%; 
-    height: 50px; 
+    height: 300px; 
     display: flex; 
     justify-content: center; 
     align-items: flex-start; 
@@ -102,7 +106,7 @@
 }
 
 .h5{
-    font-size: 200px;
+    font-size: 240px;
     height: 300px; 
     width: 100%;
     display: flex; 
@@ -111,7 +115,7 @@
 }
 
 .h5c{
-    font-size: 200px;
+    font-size: 240px;
     height: 300px; 
     display: flex; 
     gap: 50px; 
@@ -120,13 +124,14 @@
 
 .h5b{
     white-space: wrap;
-    width: 80%
+    width: 90%
 }
 
 .h5i{
-    font-size: 200px;
-    font-style: italic;
+    font-size: 240px;
+    /* font-style: italic; */
     color: #0A178C;
+    /* text-decoration: underline #000000; */
     /* text-decoration: underline; */
     /* width: 40%; 
     height: 200px;
@@ -138,13 +143,14 @@
 .h1c{
     font-size: 75px;
     height: 0px; 
-    width: 100%;
     display: flex; 
-    justify-content: center; 
+    gap: 30px; 
     align-items: flex-start; 
 }
 
 .h1bc{
+    white-space: wrap;
+    width: 80%
     /* width: 100%; 
     height: 0px; 
     display: flex; 
@@ -156,43 +162,111 @@
     font-style: italic;
     color: #0A178C;
     /* text-decoration: underline; */
-    width: 100%; 
+    /* width: 100%; 
     height: 0px; 
     display: flex; 
     justify-content: center; 
-    align-items: flex-end; 
+    align-items: flex-end;  */
 }
 
 .h6{
     font-size: 175px;
-    width: 100%; 
-    height: 200px; 
+    /* width: 100%;  */
+    height: 150px; 
+    margin-top: -45px;
     background: #ffffff;
     display: flex; 
     justify-content: center; 
-    align-items: flex-start; 
+    align-items: center; 
+}
+
+.aru{
+    height: 300px;
+    margin-top: 50px;
 }
 
 .h7i{
     font-size: 27px;
     font-style: italic;
     color: #0A178C;
-    text-decoration: underline;
-    width: 100%; 
+    text-decoration: underline #000000;
+    /* width: 100%;  */
     height: 50px;
     display: flex; 
     justify-content: center; 
     align-items: flex-start; 
 }
 
+/* .h2rgg{
+    margin-top: -12%;
+} */
+
+.h2rg{
+    /* font-size: 27px;
+    width: 100%; 
+    height: 50px;  */
+    margin-top: 20px;
+    display: flex; 
+    justify-content:space-around;
+    align-items: flex-start; 
+}
+
+.h2r1{
+    font-size: 38px;
+    height: 120px; 
+    /* margin-left: -90px; */
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start;
+}
+
+.h2r2{
+    font-size: 38px;
+    height: 120px; 
+    /* margin-left: -230px; */
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start;
+}
+
+.prg{
+    /* font-size: 27px;
+    width: 100%; 
+    height: 50px;  */
+    /* margin-top: 20px; */
+    display: flex; 
+    justify-content:space-around;
+    align-items: flex-start; 
+}
+
+.pr1{
+    font-size: 27px;
+    color: #0A178C;
+    /* height: 120px;  */
+    /* margin-left: -90px; */
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start;
+}
+
+.pr2{
+    font-size: 27px;
+    color: #0A178C;
+    /* height: 120px;  */
+    /* margin-left: -230px; */
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start;
+}
+
 .p{
     font-size: 27px;
-    font-style: italic;
+    /* font-style: italic; */
     color: #0A178C;
     /* width: 100%;  */
-    height: 50px; 
+    /* height: 50px;  */
     background: #ffffff;
-    text-decoration: underline;
+    text-decoration: underline #000000;
     /* text-align: justify;
     display: flex; 
     justify-content: center; 
@@ -202,7 +276,7 @@
 .delo{
     width: 100%; 
     height: 700px; 
-    margin-top: -10%;
+    margin-top: -12%;
     flex-direction: column;
     display: flex;  
     justify-content: center; 
@@ -210,29 +284,45 @@
 }
 
 .delo_line{
-    width: 230px; 
-    margin-left: 60%;
-    border: 2px solid #0A178C;
+    width: 270px; 
+    margin-left: 72%;
+    margin-top: -20px;
+    border: 2px solid #000000;
 }
 
 .tom{
     width: 100%; 
     height: 700px; 
-    margin: 0 auto;
+    margin-top: -27%;
+    flex-direction: column;
+    display: flex;  
+    justify-content: center; 
+    align-items: center;
     /* display: flex;  */
     /*justify-content: center; 
     align-items: center;*/
 }
 
 .tom_line{
-    width: 100px; 
-    margin-left: 60%;
-    border: 2px solid #0A178C;
+    width: 70px; 
+    margin-left: 56.5%;
+    margin-top: 70px;
+    border: 2px solid  #000000;
+}
+
+.start{
+    margin-left: -40px;
+    margin-top: -12%;
+    width: 100%; 
+    flex-direction: column;
+    display: flex;  
+    justify-content: center; 
+    align-items: flex-end;
 }
 
 .table1colbg{
     width: 100%; 
-    height: 800px; 
+    height: 680px; 
     /* display: flex; 
     justify-content: center; 
     align-items: center;  */
@@ -240,7 +330,8 @@
 
 .table1col{
     width: 95%; 
-    height: 800px; 
+    height: 680px; 
+    /* margin-top: -150px; */
     margin: 0% auto;
     background: #ffffff;
     border: 3px solid rgb(0, 0, 0);
@@ -249,6 +340,10 @@
     justify-content: center;
     align-items: center;
 } 
+
+.table1col2{
+    margin-top: 70px;
+}
 
 .table2colbg{
     width: 100%; 
@@ -300,20 +395,30 @@
     width: 100%; 
     height: 200px; 
     display: flex; 
-    justify-content: center; 
+    justify-content: flex-end; 
     align-items: center;
 }
 
 .h13i{
     font-size: 80px;
-    font-style: italic;
+    width: 100%; 
+    /* font-style: italic; */
     color: #0A178C;
     display: flex; 
-    justify-content: flex-start; 
+    justify-content: center; 
     align-items: center;
 }
 
-.reg1{
+.h132{
+    font-size: 80px;
+    width: 100%; 
+    height: 200px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+/* .reg1{
     font-size: 100%;
     display: flex; 
     justify-content: flex-end; 
@@ -329,7 +434,7 @@
     justify-content: flex-start; 
     align-items: center;
     margin: 5%;
-}
+} */
 
 .sym1{
     font-size: 100%;
@@ -506,7 +611,7 @@
 }
 
 .end{
-    font-size: 35px;
+    font-size: 38px;
     width: 100%; /*ширина*/
     height: 230px; /*высота*/
     display: flex; /*элементы по горизонтали - флекс-модель*/
@@ -540,6 +645,62 @@
     align-items: flex-end; 
 }
 
+.reg{
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center; 
+}
+
+.reg1{
+    font-size: 48px;
+}
+
+.reg2{
+    font-size: 48px;
+}
+
+.reg3{
+    font-size: 48px;
+}
+
+.reg4{
+    font-size: 48px;
+}
+
+.reg5{
+    font-size: 48px;
+}
+
+.ita{
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+}
+
+.ita1{
+    font-size: 48px;
+}
+
+.ita2{
+    font-size: 48px;
+}
+
+.ita3{
+    font-size: 48px;
+}
+
+.ita4{
+    font-size: 48px;
+}
+
+.ita5{
+    font-size: 48px;
+}
+
+
+
+
+
 
 .pic211{
     width: 70%;
@@ -555,8 +716,16 @@
     align-items: center;
 }
 
+.pic22g{
+    width: 100%;
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start;
+}
+
 .pic22{
     width: 70%;
+    margin-top: -10px;
     display: flex; 
     justify-content: center; 
     align-items: center;
