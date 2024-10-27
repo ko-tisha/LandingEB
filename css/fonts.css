@@ -100,19 +100,19 @@
     font-family: "EBGaramond-Bold";
 }
 
-.h1, .h3, .h5b, .h1bc, .h1ic, .h4, .reg5, .h2r1, .h2r2{
+.h1, .h3, .h5b, .h1bc, .h4, .reg5, .h2r1, .h2r2{
     font-family: "EBGaramond-ExtraBold";
 }
 
 .ita1 {
-    font-family: "EBGaramond-RegularItalic";
+    font-family: "EBGaramond-Italic";
 }
 
 .ita2 {
     font-family: "EBGaramond-MediumItalic";
 }
 
-.ita3, .pr1, .pr2, .p, .h5i {
+.ita3, .pr1, .pr2, .p, .h5i, .h1ic{
     font-family: "EBGaramond-SemiBoldItalic";
 }
 
@@ -120,8 +120,8 @@
     font-family: "EBGaramond-BoldItalic";
 }
 
-.ita5 {
-    font-family: "EBGaramond-SemiBoldItalic";
+.ita5, .num1 {
+    font-family: "EBGaramond-ExtraBoldItalic";
 }
 
 

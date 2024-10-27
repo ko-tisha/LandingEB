@@ -285,7 +285,7 @@
 
 .delo_line{
     width: 270px; 
-    margin-left: 72%;
+    margin-left: 71.5%;
     margin-top: -20px;
     border: 2px solid #000000;
 }
@@ -322,7 +322,7 @@
 
 .table1colbg{
     width: 100%; 
-    height: 680px; 
+    height: 700px; 
     /* display: flex; 
     justify-content: center; 
     align-items: center;  */
@@ -330,7 +330,7 @@
 
 .table1col{
     width: 95%; 
-    height: 680px; 
+    height: 700px; 
     /* margin-top: -150px; */
     margin: 0% auto;
     background: #ffffff;
@@ -347,7 +347,7 @@
 
 .table2colbg{
     width: 100%; 
-    height: 500px;
+    height: 550px;
     display: flex; 
     justify-content: center; 
     align-items: center;
@@ -363,7 +363,7 @@
 
 .table2col{
     width: 48%; 
-    height: 500px; 
+    height: 550px; 
     background: #ffffff;
     border: 3px solid rgb(0, 0, 0);
     display: flex;
@@ -392,8 +392,9 @@
 
 .h13{
     font-size: 80px;
-    width: 100%; 
+    /* width: 100%;  */
     margin-right: 50px;
+    margin-top: 50px;
     /* margin-top: -120px;
     margin-right: 80px; */
     /* height: 200px;  */
@@ -406,6 +407,7 @@
     font-size: 80px;
     width: 100%; 
     margin-left: 50px;
+    margin-top: 50px;
     /* margin-top: -120px;
     margin-left: 80px; */
     /* font-style: italic; */
@@ -422,40 +424,45 @@
 } */
 
 .reg1{
-    font-size: 48px;
+    font-size: 44px;
     margin-right: 50px;
+    margin-top: 50px;
     display: flex; 
     justify-content: flex-end; 
     align-items: center; 
 }
 
 .reg2{
-    font-size: 48px;
+    font-size: 44px;
     margin-right: 50px;
+    margin-top: 20px;
     display: flex; 
     justify-content: flex-end; 
     align-items: center; 
 }
 
 .reg3{
-    font-size: 48px;
+    font-size: 44px;
     margin-right: 50px;
+    margin-top: 20px;
     display: flex; 
     justify-content: flex-end; 
     align-items: center; 
 }
 
 .reg4{
-    font-size: 48px;
+    font-size: 44px;
     margin-right: 50px;
+    margin-top: 20px;
     display: flex; 
     justify-content: flex-end; 
     align-items: center; 
 }
 
 .reg5{
-    font-size: 48px;
+    font-size: 44px;
     margin-right: 50px;
+    margin-top: 20px;
     display: flex; 
     justify-content: flex-end; 
     align-items: center; 
@@ -468,45 +475,50 @@
 } */
 
 .ita1{
-    font-size: 48px;
+    font-size: 44px;
     color: #0A178C;
     margin-left: 50px;
+    margin-top: 50px;
     display: flex; 
     justify-content: flex-start; 
     align-items: center; 
 }
 
 .ita2{
-    font-size: 48px;
+    font-size: 44px;
     color: #0A178C;
     margin-left: 50px;
+    margin-top: 20px;
     display: flex; 
     justify-content: flex-start; 
     align-items: center; 
 }
 
 .ita3{
-    font-size: 48px;
+    font-size: 44px;
     color: #0A178C;
     margin-left: 50px;
+    margin-top: 20px;
     display: flex; 
     justify-content: flex-start; 
     align-items: center; 
 }
 
 .ita4{
-    font-size: 48px;
+    font-size: 44px;
     color: #0A178C;
     margin-left: 50px;
+    margin-top: 20px;
     display: flex; 
     justify-content: flex-start; 
     align-items: center; 
 }
 
 .ita5{
-    font-size: 48px;
+    font-size: 44px;
     color: #0A178C;
     margin-left: 50px;
+    margin-top: 20px;
     display: flex; 
     justify-content: flex-start; 
     align-items: center; 
@@ -661,8 +673,8 @@
 
 .num1{
     font-size: 190px;
-    font-style: italic;
-    font-style: bold;
+    /* font-style: italic;
+    font-style: bold; */
     color: #0A178C;
     background: #ffffff;
     border: black;
@@ -731,11 +743,11 @@
 }
 
 .alfbox{
-    width: 500px;
+    width: 470px;
     height: 150px;
     background: #ffffff;
     border: 3px solid rgb(0, 0, 0);
-    margin: 1%; 
+    /* margin: 1%;  */
     text-align: center;
     line-height: 100px;
     font-size: 500%;
@@ -743,6 +755,22 @@
 
 .alf1{
     margin-top: 18px;
+    margin-left: 50px;
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end; 
+}
+
+.alf1{
+    margin-top: 18px;
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end; 
+}
+
+.alf1{
+    margin-top: 18px;
+    margin-right: 50px;
     display: flex; 
     justify-content: center; 
     align-items: flex-end; 
@@ -778,7 +806,7 @@
 
 .pic22{
     width: 70%;
-    margin-top: -10px;
+    margin-top: -50px;
     display: flex; 
     justify-content: center; 
     align-items: center;
@@ -801,7 +829,7 @@
 
 .pic31{
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     display: flex; 
     justify-content: center; 
     align-items: center;
