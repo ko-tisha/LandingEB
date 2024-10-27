@@ -100,7 +100,7 @@
     font-family: "EBGaramond-Bold";
 }
 
-.h1, .h3, .h5b, .h5i, .h1bc, .h1ic, .h4, .reg5, .h2r1, .h2r2{
+.h1, .h3, .h5b, .h1bc, .h1ic, .h4, .reg5, .h2r1, .h2r2{
     font-family: "EBGaramond-ExtraBold";
 }
 
@@ -112,11 +112,11 @@
     font-family: "EBGaramond-MediumItalic";
 }
 
-.ita3, .pr1, .pr2, .p {
+.ita3, .pr1, .pr2, .p, .h5i {
     font-family: "EBGaramond-SemiBoldItalic";
 }
 
-.ita4 {
+.ita4, .h13i {
     font-family: "EBGaramond-BoldItalic";
 }
 
