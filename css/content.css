@@ -172,7 +172,7 @@
 .h6{
     font-size: 175px;
     /* width: 100%;  */
-    height: 150px; 
+    height: 180px; 
     margin-top: -45px;
     background: #ffffff;
     display: flex; 
@@ -273,6 +273,13 @@
     align-items: flex-end; */
 }
 
+/* .ph{
+    height: 30px; 
+    display: flex;  
+    justify-content: center; 
+    align-items: center;
+} */
+
 .delo{
     width: 100%; 
     height: 700px; 
@@ -322,7 +329,7 @@
 
 .table1colbg{
     width: 100%; 
-    height: 700px; 
+    height: 720px; 
     /* display: flex; 
     justify-content: center; 
     align-items: center;  */
@@ -330,19 +337,40 @@
 
 .table1col{
     width: 95%; 
-    height: 700px; 
+    height: 720px; 
     /* margin-top: -150px; */
     margin: 0% auto;
     background: #ffffff;
     border: 3px solid rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
+} 
+
+/* .table1col1{
+    width: 95%; 
+    height: 720px; 
+    margin: 0% auto;
+    background: #ffffff;
+    border: 3px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
 } 
 
 .table1col2{
-    margin-top: 70px;
+    width: 95%; 
+    height: 720px; 
+    margin-left: 5px;
+    margin: 0% auto;
+    background: #ffffff;
+    border: 3px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+}  */
+
+.table1col2{
+    margin-top: 20px;
 }
 
 .table2colbg{
@@ -569,12 +597,17 @@
     margin: 5%;
 }
 
-.fambox{
-    width: 430px;
+.fam{
+    margin-top: -410px;
+}
+
+.fambox1{
+    width: 470px;
     height: 150px;
     background: #ffffff;
     border: 3px solid rgb(0, 0, 0);
-    margin: 1%; 
+    margin-left: 110px;
+    /* margin: 1%;  */
     text-align: center;
     line-height: 100px;
 }
@@ -597,7 +630,7 @@
 }
 
 .date1{
-    font-size: 32px;
+    font-size: 36px;
     font-style: italic;
     color: #0A178C;
     width: 100%; 
@@ -605,6 +638,17 @@
     display: flex; 
     justify-content: center; 
     align-items: flex-start; 
+}
+
+.fambox2{
+    width: 610px;
+    height: 150px;
+    background: #ffffff;
+    border: 3px solid rgb(0, 0, 0);
+    margin-right: 110px;
+    /* margin: 1%;  */
+    text-align: center;
+    line-height: 100px;
 }
 
 .fam2{
@@ -625,7 +669,7 @@
 }
 
 .date2{
-    font-size: 32px;
+    font-size: 36px;
     font-style: italic;
     color: #0A178C;
     width: 100%; 
@@ -633,6 +677,17 @@
     display: flex; 
     justify-content: center; 
     align-items: flex-start; 
+}
+
+.fambox3{
+    width: 470px;
+    height: 150px;
+    background: #ffffff;
+    border: 3px solid rgb(0, 0, 0);
+    margin-right: 400px;
+    /* margin: 1%;  */
+    text-align: center;
+    line-height: 100px;
 }
 
 .fam3{
@@ -645,7 +700,7 @@
 
 .font3{
     font-size: 500%;
-    width: 100%; 
+    /* width: 100%;  */
     height: 50px; 
     display: flex; 
     justify-content: center; 
@@ -653,7 +708,7 @@
 }
 
 .date3{
-    font-size: 32px;
+    font-size: 36px;
     font-style: italic;
     color: #0A178C;
     width: 100%; 
@@ -836,6 +891,13 @@
 }
 
 .pic41{
+    width: 100%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.pic412{
     width: 100%;
     display: flex; 
     justify-content: center; 

@@ -69,21 +69,6 @@
 }
 
 
-@font-face{
-    font-family: "Cormorant-Bold";
-    src: url("../Cormorant/Cormorant-Bold.ttf") format(truetype);
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face{
-    font-family: "Garamond-Bold";
-    src: url("../Garamond/Garamond-Bold\ -\ Garamond\ -\ Bold.ttf") format(truetype);
-    font-weight: normal;
-    font-style: normal;
-}
-
-
 .h2, .reg1 {
     font-family: "EBGaramond-Regular";
 }
@@ -100,7 +85,7 @@
     font-family: "EBGaramond-Bold";
 }
 
-.h1, .h3, .h5b, .h1bc, .h4, .reg5, .h2r1, .h2r2{
+.h1, .h3, .h5b, .h1bc, .h4, .reg5, .h2r1, .h2r2, .h6{
     font-family: "EBGaramond-ExtraBold";
 }
 
@@ -120,8 +105,52 @@
     font-family: "EBGaramond-BoldItalic";
 }
 
-.ita5, .num1 {
+.ita5, .num1, .bb {
     font-family: "EBGaramond-ExtraBoldItalic";
+}
+
+@font-face{
+    font-family: "Cormorant-Bold";
+    src: url("../Cormorant/Cormorant-Bold.ttf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Cormorant-Italic";
+    src: url("../Cormorant/Cormorant-Italic.ttf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Garamond-Bold";
+    src: url("../Garamond/Garamond-Bold\ -\ Garamond\ -\ Bold.ttf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Garamond-Italic";
+    src: url("../Garamond/Garamond-Italic\ -\ Garamond\ -\ Italic.ttf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font1{
+    font-family: "Garamond-Bold";
+}
+
+.date1{
+    font-family: "Garamond-Italic";
+}
+
+.font3{
+    font-family: "Cormorant-Bold";
+}
+
+.date3{
+    font-family: "Cormorant-Italic";
 }
 
 
