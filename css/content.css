@@ -1,18 +1,41 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+body {
+/* width: 100%; */
+display: block; 
+margin: 20  auto;
+position: relative;
+background: #ffffff;
+}
+
 .land{
+    width: 1440px;
     background: #F3F3F3;
+    margin: 0px auto;
 }
 
 .h1{
-    font-size: 80px;
+    font-size: 64px;
     width: 100%; 
-    height: 170px; 
+    height: 150px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end; 
+}
+
+.h1O{
+    font-size: 64px;
+    width: 100%; 
+    height: 190px; 
     display: flex; 
     justify-content: center; 
     align-items: flex-end; 
 }
 
 .h1i{
-    font-size: 80px;
+    font-size: 64px;
     font-style: italic;
     color: #0A178C;
     width: 100%; 
@@ -23,7 +46,7 @@
 }
 
 .h2{
-    font-size: 38px;
+    font-size: 32px;
     width: 100%; 
     height: 120px; 
     display: flex; 
@@ -32,7 +55,7 @@
 }
 
 .h2m{
-    font-size: 38px;
+    font-size: 32px;
     width: 100%; 
     height: 80px; 
     display: flex; 
@@ -41,7 +64,7 @@
 }
 
 .h3{
-    font-size: 55px;
+    font-size: 48px;
     width: 100%; 
     height: 150px; 
     display: flex; 
@@ -50,7 +73,7 @@
 }
 
 .h3i{
-    font-size: 55px;
+    font-size: 48px;
     font-style: italic;
     color: #0A178C;
     width: 100%; 
@@ -61,16 +84,16 @@
 }
 
 .h4c{
-    font-size: 27px;
+    font-size: 28px;
     /* width: 100%;  */
-    height: 50px; 
+    height: 40px; 
     display: flex; 
     gap: 10px;  
     align-items: flex-start; 
 }
 
 .h4{
-    /* font-size: 27px;
+    /* font-size: 25px;
     width: 100%; 
     height: 50px;  */
     /* margin-left: 50px; */
@@ -83,10 +106,10 @@
 
 .h4i{
     /* margin-left: 10px; */
-    font-size: 27px;
+    font-size: 28px;
     font-style: italic;
     color: #0A178C;
-    text-decoration: underline #000000;
+    text-decoration: underline 3px #000000;
     width: 100%; 
     height: 300px; 
     display: flex; 
@@ -95,7 +118,7 @@
 }
 
 .h4i2{
-    font-size: 27px;
+    font-size: 28px;
     font-style: italic;
     color: #0A178C;
     width: 100%; 
@@ -106,8 +129,8 @@
 }
 
 .h5{
-    font-size: 240px;
-    height: 300px; 
+    font-size: 230px;
+    height: 310px; 
     width: 100%;
     display: flex; 
     justify-content: center; 
@@ -115,8 +138,8 @@
 }
 
 .h5c{
-    font-size: 240px;
-    height: 300px; 
+    font-size: 230px;
+    height: 310px; 
     display: flex; 
     gap: 50px; 
     align-items: flex-end; 
@@ -128,7 +151,7 @@
 }
 
 .h5i{
-    font-size: 240px;
+    font-size: 230px;
     /* font-style: italic; */
     color: #0A178C;
     /* text-decoration: underline #000000; */
@@ -170,7 +193,7 @@
 }
 
 .h6{
-    font-size: 175px;
+    font-size: 150px;
     /* width: 100%;  */
     height: 180px; 
     margin-top: -45px;
@@ -181,15 +204,15 @@
 }
 
 .aru{
-    height: 300px;
+    height: 280px;
     margin-top: 50px;
 }
 
 .h7i{
-    font-size: 27px;
+    font-size: 25px;
     font-style: italic;
     color: #0A178C;
-    text-decoration: underline #000000;
+    text-decoration: underline 2px #000000;
     /* width: 100%;  */
     height: 50px;
     display: flex; 
@@ -205,15 +228,15 @@
     /* font-size: 27px;
     width: 100%; 
     height: 50px;  */
-    margin-top: 20px;
+    margin-top: 15px;
     display: flex; 
     justify-content:space-around;
     align-items: flex-start; 
 }
 
 .h2r1{
-    font-size: 38px;
-    height: 120px; 
+    font-size: 35px;
+    height: 70px; 
     /* margin-left: -90px; */
     display: flex; 
     justify-content: center; 
@@ -221,8 +244,8 @@
 }
 
 .h2r2{
-    font-size: 38px;
-    height: 120px; 
+    font-size: 35px;
+    height: 70px; 
     /* margin-left: -230px; */
     display: flex; 
     justify-content: center; 
@@ -240,7 +263,7 @@
 }
 
 .pr1{
-    font-size: 27px;
+    font-size: 25px;
     color: #0A178C;
     /* height: 120px;  */
     /* margin-left: -90px; */
@@ -250,7 +273,7 @@
 }
 
 .pr2{
-    font-size: 27px;
+    font-size: 25px;
     color: #0A178C;
     /* height: 120px;  */
     /* margin-left: -230px; */
@@ -260,7 +283,7 @@
 }
 
 .p{
-    font-size: 27px;
+    font-size: 25px;
     /* font-style: italic; */
     color: #0A178C;
     /* width: 100%;  */
@@ -282,7 +305,7 @@
 
 .delo{
     width: 100%; 
-    height: 700px; 
+    height: 510px; 
     margin-top: -12%;
     flex-direction: column;
     display: flex;  
@@ -291,10 +314,10 @@
 }
 
 .delo_line{
-    width: 270px; 
-    margin-left: 71.5%;
+    width: 250px; 
+    margin-left: 74.5%;
     margin-top: -20px;
-    border: 2px solid #000000;
+    border: 2.6px solid #000000;
 }
 
 .tom{
@@ -311,15 +334,15 @@
 }
 
 .tom_line{
-    width: 70px; 
-    margin-left: 56.5%;
-    margin-top: 70px;
-    border: 2px solid  #000000;
+    width: 50px; 
+    margin-left: 58.2%;
+    margin-top: 72px;
+    border: 2.6px solid  #000000;
 }
 
 .start{
     margin-left: -40px;
-    margin-top: -12%;
+    margin-top: -17%;
     width: 100%; 
     flex-direction: column;
     display: flex;  
@@ -375,7 +398,7 @@
 
 .table2colbg{
     width: 100%; 
-    height: 550px;
+    height: 450px;
     display: flex; 
     justify-content: center; 
     align-items: center;
@@ -391,7 +414,7 @@
 
 .table2col{
     width: 48%; 
-    height: 550px; 
+    height: 450px; 
     background: #ffffff;
     border: 3px solid rgb(0, 0, 0);
     display: flex;
@@ -401,7 +424,7 @@
 }
 
 .h12{
-    font-size: 80px;
+    font-size: 64px;
     width: 100%; 
     height: 170px; 
     display: flex; 
@@ -410,7 +433,7 @@
 }
 
 .h12i{
-    font-size: 80px;
+    font-size: 64px;
     font-style: italic;
     color: #0A178C;
     display: flex; 
@@ -419,10 +442,10 @@
 }
 
 .h13{
-    font-size: 80px;
+    font-size: 65px;
     /* width: 100%;  */
     margin-right: 50px;
-    margin-top: 50px;
+    margin-top: 30px;
     /* margin-top: -120px;
     margin-right: 80px; */
     /* height: 200px;  */
@@ -432,10 +455,10 @@
 }
 
 .h13i{
-    font-size: 80px;
+    font-size: 64px;
     width: 100%; 
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 30px;
     /* margin-top: -120px;
     margin-left: 80px; */
     /* font-style: italic; */
@@ -452,16 +475,16 @@
 } */
 
 .reg1{
-    font-size: 44px;
+    font-size: 40px;
     margin-right: 50px;
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex; 
     justify-content: flex-end; 
     align-items: center; 
 }
 
 .reg2{
-    font-size: 44px;
+    font-size: 40px;
     margin-right: 50px;
     margin-top: 20px;
     display: flex; 
@@ -470,7 +493,7 @@
 }
 
 .reg3{
-    font-size: 44px;
+    font-size: 40px;
     margin-right: 50px;
     margin-top: 20px;
     display: flex; 
@@ -479,7 +502,7 @@
 }
 
 .reg4{
-    font-size: 44px;
+    font-size: 40px;
     margin-right: 50px;
     margin-top: 20px;
     display: flex; 
@@ -488,7 +511,7 @@
 }
 
 .reg5{
-    font-size: 44px;
+    font-size: 40px;
     margin-right: 50px;
     margin-top: 20px;
     display: flex; 
@@ -503,17 +526,17 @@
 } */
 
 .ita1{
-    font-size: 44px;
+    font-size: 40px;
     color: #0A178C;
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex; 
     justify-content: flex-start; 
     align-items: center; 
 }
 
 .ita2{
-    font-size: 44px;
+    font-size: 40px;
     color: #0A178C;
     margin-left: 50px;
     margin-top: 20px;
@@ -523,7 +546,7 @@
 }
 
 .ita3{
-    font-size: 44px;
+    font-size: 40px;
     color: #0A178C;
     margin-left: 50px;
     margin-top: 20px;
@@ -533,7 +556,7 @@
 }
 
 .ita4{
-    font-size: 44px;
+    font-size: 40px;
     color: #0A178C;
     margin-left: 50px;
     margin-top: 20px;
@@ -543,7 +566,7 @@
 }
 
 .ita5{
-    font-size: 44px;
+    font-size: 40px;
     color: #0A178C;
     margin-left: 50px;
     margin-top: 20px;
@@ -553,7 +576,7 @@
 }
 
 .h132{
-    font-size: 80px;
+    font-size: 64px;
     width: 100%; 
     height: 200px; 
     display: flex; 
@@ -598,12 +621,12 @@
 }
 
 .fam{
-    margin-top: -410px;
+    margin-top: -420px;
 }
 
 .fambox1{
-    width: 470px;
-    height: 150px;
+    width: 387px;
+    height: 140px;
     background: #ffffff;
     border: 3px solid rgb(0, 0, 0);
     margin-left: 110px;
@@ -614,14 +637,14 @@
 
 .fam1{
     width: 100%; 
-    height: 157px; 
+    height: 140px; 
     display: flex; 
     justify-content: flex-start; 
     align-items: center; 
 }
 
 .font1{
-    font-size: 80px;
+    font-size: 64px;
     width: 100%; 
     height: 50px; 
     display: flex; 
@@ -641,8 +664,8 @@
 }
 
 .fambox2{
-    width: 610px;
-    height: 150px;
+    width: 505px;
+    height: 132px;
     background: #ffffff;
     border: 3px solid rgb(0, 0, 0);
     margin-right: 110px;
@@ -653,14 +676,14 @@
 
 .fam2{
     width: 100%; 
-    height: 157px; 
+    height: 140px; 
     display: flex; 
     justify-content: flex-end; 
     align-items: center; 
 }
 
 .font2{
-    font-size: 80px;
+    font-size: 64px;
     width: 100%; 
     height: 50px; 
     display: flex; 
@@ -680,11 +703,11 @@
 }
 
 .fambox3{
-    width: 470px;
-    height: 150px;
+    width: 387px;
+    height: 132px;
     background: #ffffff;
     border: 3px solid rgb(0, 0, 0);
-    margin-right: 400px;
+    margin-right: 350px;
     /* margin: 1%;  */
     text-align: center;
     line-height: 100px;
@@ -692,14 +715,14 @@
 
 .fam3{
     width: 100%; 
-    height: 157px; 
+    height: 140px; 
     display: flex; 
     justify-content: center; 
     align-items: center; 
 }
 
 .font3{
-    font-size: 500%;
+    font-size: 64px;
     /* width: 100%;  */
     height: 50px; 
     display: flex; 
@@ -720,14 +743,14 @@
 
 .num{
     width: 100%; 
-    height: 100px; 
+    height: 70px; 
     display: flex; 
     justify-content: center; 
     align-items: center; 
 }
 
 .num1{
-    font-size: 190px;
+    font-size: 155px;
     /* font-style: italic;
     font-style: bold; */
     color: #0A178C;
@@ -737,7 +760,7 @@
     justify-content: center; 
     align-items: center; 
     width: 95%; 
-    height: 280px; 
+    height: 250px; 
     border-radius: 0px;
     border: 3px solid rgb(0, 0, 0);
     margin: 0% auto;
@@ -781,7 +804,7 @@
 }
 
 .end{
-    font-size: 38px;
+    font-size: 32px;
     width: 100%; /*ширина*/
     height: 230px; /*высота*/
     display: flex; /*элементы по горизонтали - флекс-модель*/
@@ -792,40 +815,65 @@
 .alf{
     width: 100%; 
     height: 156px; 
+    margin-top: -40px;
     display: flex; 
     justify-content: space-around; 
     align-items: center; 
 }
 
-.alfbox{
-    width: 470px;
-    height: 150px;
+.alfbox1{
+    width: 387px;
+    height: 132px;
+    margin-left: 50px;
     background: #ffffff;
     border: 3px solid rgb(0, 0, 0);
     /* margin: 1%;  */
     text-align: center;
     line-height: 100px;
-    font-size: 500%;
+    font-size: 64px;
 }
 
-.alf1{
-    margin-top: 18px;
-    margin-left: 50px;
-    display: flex; 
-    justify-content: center; 
-    align-items: flex-end; 
+.alfbox2{
+    width: 387px;
+    height: 132px;
+    background: #ffffff;
+    border: 3px solid rgb(0, 0, 0);
+    /* margin: 1%;  */
+    text-align: center;
+    line-height: 100px;
+    font-size: 64px;
 }
 
-.alf1{
-    margin-top: 18px;
-    display: flex; 
-    justify-content: center; 
-    align-items: flex-end; 
-}
-
-.alf1{
-    margin-top: 18px;
+.alfbox3{
+    width: 387px;
+    height: 132px;
     margin-right: 50px;
+    background: #ffffff;
+    border: 3px solid rgb(0, 0, 0);
+    /* margin: 1%;  */
+    text-align: center;
+    line-height: 100px;
+    font-size: 64px;
+}
+
+.alf1{
+    margin-top: 12px;
+    margin-left: 0px;
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end; 
+}
+
+.alf2{
+    margin-top: 12px;
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end; 
+}
+
+.alf3{
+    margin-top: 12px;
+    margin-right: 0px;
     display: flex; 
     justify-content: center; 
     align-items: flex-end; 
@@ -860,8 +908,8 @@
 }
 
 .pic22{
-    width: 70%;
-    margin-top: -50px;
+    width: 80%;
+    margin-top: -20px;
     display: flex; 
     justify-content: center; 
     align-items: center;
@@ -884,7 +932,7 @@
 
 .pic31{
     width: 100%;
-    margin-bottom: 20px;
+    margin-top: -9px;
     display: flex; 
     justify-content: center; 
     align-items: center;
